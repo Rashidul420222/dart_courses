@@ -1,3 +1,11 @@
 void printNameLength(String? name) {
-  print(name.length); // compile time error show when null checks
+  // slove null error problem
+  if (name == null) {
+    return;
+  }
+  print(name);
+}
+
+void main() {
+  printNameLength('Slove compile time error problem');
 }
