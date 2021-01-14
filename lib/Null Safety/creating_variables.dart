@@ -2,6 +2,6 @@
 
 void main() {
   String name;
-  name = null; // Compailer show an error
+  name = 2; // Compailer show  type safety error
   print('Rashidul is $name');
 }
