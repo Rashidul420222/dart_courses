@@ -5,4 +5,9 @@ void main() {
   name = null; // null value
   name = 'Rashidul'; // reassign non-value to a variable
   print(name);
+
+  var result = isEmpty('Thi');
+  print(result);
 }
+
+bool isEmpty(String string) => string.length == 3;
